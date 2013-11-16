@@ -13,4 +13,9 @@
 //= require jquery
 //= require moment
 //= require faye
+//= require init_faye
+//= require jsfx-master/lib/audio
+//= require jsfx-master/lib/jsfx
+//= require jsfx-master/lib/jsfxlib
+//= require jsfx-master/lib/jsfxgui
 //= require_tree .

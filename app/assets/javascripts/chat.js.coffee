@@ -1,13 +1,15 @@
-# Place all the behaviors and hooks related to the matching controller here.
-# All this logic will automatically be available in application.js.
-# You can use CoffeeScript in this file: http://jashkenas.github.com/coffee-script/
-
-client = new Faye.Client('/faye')
+# behaviors and hooks related to the matching controller
+# all yr logic are automatically belong to application.js
+# http://jashkenas.github.com/coffee-script/
+hazToggz = false
 
 client.subscribe '/chat', (payload)->
   time = moment(payload.created_at).format('D/M/YYYY H:mm:ss')
   # You probably want to think seriously about XSS here:
-  $('#chat').append("<li>#{time} : #{payload.message}</li>")
+  if hazToggz 
+    $('#chat').append("<li class='down-left'><span class='time'>#{time}</span> #{payload.message}</li>")
+  else
+    $('#chat').append("<li><span class='time' style='display: none;'>#{time}</span> #{payload.message}</li>")  
 
 $(document).ready ->
   input = $('input')
@@ -24,7 +26,21 @@ $(document).ready ->
       button.text('post')
     publication.errback ->
       button.removeAttr('disabled')
-      button.text('Try again')
+      button.text('try again?')
+  
+  
+  $('.time').hide()
+  $('#chat').on('click', (e) ->
+    unless hazToggz
+      $(@).toggle(
+        -> 
+          $('.time').hide()
+        ->
+          $('.time').show()
+      )
+    hazToggz = true
+  )
 
-# in case anyone wants to play with the inspector.
+
+# inspector help.
 window.client = client

@@ -1,11 +1,43 @@
 %ul#chat
   - @chat_messages.each do |chat_message|
-    %li
-      = chat_message.created_at.strftime('%-d/%-m/%Y %k:%M:%S')
-      = ':'
-      = chat_message.message
+    %li.down-left
+      %span{class:'time'}=chat_message.created_at.strftime('%-d/%-m/%Y %k:%M:%S')
+      =chat_message.message
+%div{ class: 'post'}
+  %button post
+  %input{type: 'text', name: 'message'}
 
-%hr
+%div#container
+  %div#main
+    %div#button-panel        
+      %div#sample-generators.button-set
+  
+      %hr 
+      %div.button-set
+        %button{ onclick: "jsfxgui.reset()"} reset
+        %button{ onclick: "jsfxgui.randomize()"} rand
+        %button{ onclick: "jsfxgui.play()"} play
+        %button{ onclick: "jsfxgui.paramsToLibrary()"} to_lib
+      
+    
+    %div#stuff 
+      %input#libload{type: "text", value:'["noise",0.0000,0.4000,0.0000,0.0060,0.0000,0.1220,20.0000,460.0000,2400.0000,-0.  5240,0.0000,0.0000,0.0100,0.0003,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.9990,0.0000,0.0000,0.0000,0.  0000]'}
+      %button#loadField{onclick:"jsfxgui.paramsFromFieldAndPlay()"} load
+      %a#link{href:"#"} link
+      %br
+      %input#playonchange{type:"checkbox", checked: :checked} trigger on change
+      %br
 
-%input{type: 'text', name: 'message'}
-%button Post
+      %div#config-panel
+      
+    %h3 library
+    %div#library
+  
+    
+    %h3 log
+    %div#log
+      jsfx... loading...
+    
+    
+    %div.clear &nbsp
+    %div#spacer

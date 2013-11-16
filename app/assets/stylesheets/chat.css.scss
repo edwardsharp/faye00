@@ -5,7 +5,29 @@
 body {
 	background-color: #000000;
 	color: #ff6600;
+	margin: 0;
+	padding: 0;
+	
 }
 ul#chat {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	margin: 0;
+	padding: 0;
 	list-style:none;
+	z-index:1;
+	scroll:auto;
+}
+
+.post {
+	position:absolute;
+	top:0;
+	z-index:6;
+
+}
+button {
+
+	width:75px;
+	text-transform:lowercase;
 }

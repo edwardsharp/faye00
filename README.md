@@ -1,6 +1,4 @@
-Faye-rails example app.
+faye00 mostly stolen app.
 =======================
 
-This is a small demo app for faye-rails.
-
-You can see it running [on Heroku](http://faye-rails-demo.herokuapp.com/)
+BLAM. HACK HACK HACK!

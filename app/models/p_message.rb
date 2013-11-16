@@ -1,4 +1,4 @@
-class ChatMessage
+class PMessage
   HISTORY = 100
 
   attr_accessor :message, :created_at
@@ -9,13 +9,13 @@ class ChatMessage
     self.class.push self
   end
 
-  def self.push(chat_message)
-    @chat_messages ||= []
-    @chat_messages << chat_message
-    @chat_messages = @chat_messages.reverse.take(HISTORY).reverse
+  def self.push(p_message)
+    @p_messages ||= []
+    @p_messages << p_message
+    @p_messages = @p_messages.reverse.take(HISTORY).reverse
   end
 
   def self.find
-    @chat_messages ||= []
+    @p_messages ||= []
   end
 end
