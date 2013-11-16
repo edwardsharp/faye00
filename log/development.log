@@ -1,0 +1,484 @@
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-15 14:41:04 -0700
+Processing by ChatController#index as HTML
+  Rendered chat/index.html.haml within layouts/application (4.1ms)
+Compiled chat.css  (40ms)  (pid 45495)
+Compiled application.css  (54ms)  (pid 45495)
+Compiled jquery.js  (3ms)  (pid 45495)
+Compiled moment.js  (1ms)  (pid 45495)
+Compiled faye.js  (30ms)  (pid 45495)
+Compiled chat.js  (605ms)  (pid 45495)
+Compiled application.js  (704ms)  (pid 45495)
+Completed 200 OK in 949ms (Views: 948.6ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2013-08-15 14:41:05 -0700
+Served asset /chat.css - 200 OK (2ms)
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2013-08-15 14:41:05 -0700
+Served asset /moment.js - 200 OK (2ms)
+
+
+Started GET "/assets/faye.js?body=1" for 127.0.0.1 at 2013-08-15 14:41:05 -0700
+Served asset /faye.js - 200 OK (3ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2013-08-15 14:41:05 -0700
+Served asset /chat.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-15 14:41:05 -0700
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-15 14:41:05 -0700
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-15 14:41:05 -0700
+Served asset /application.js - 200 OK (7ms)
+
+
+Started POST "/faye" for 127.0.0.1 at 2013-08-15 14:41:05 -0700
+
+
+Started GET "/faye" for 127.0.0.1 at 2013-08-15 14:41:05 -0700
+
+
+Started POST "/faye" for 127.0.0.1 at 2013-08-15 14:41:05 -0700
+
+
+Started GET "/" for 10.80.1.60 at 2013-08-15 14:41:14 -0700
+Processing by ChatController#index as HTML
+  Rendered chat/index.html.haml within layouts/application (0.5ms)
+Completed 200 OK in 6ms (Views: 6.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.80.1.60 at 2013-08-15 14:41:14 -0700
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/chat.css?body=1" for 10.80.1.60 at 2013-08-15 14:41:14 -0700
+Served asset /chat.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.80.1.60 at 2013-08-15 14:41:14 -0700
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/moment.js?body=1" for 10.80.1.60 at 2013-08-15 14:41:14 -0700
+Served asset /moment.js - 200 OK (0ms)
+
+
+Started GET "/assets/faye.js?body=1" for 10.80.1.60 at 2013-08-15 14:41:14 -0700
+Served asset /faye.js - 200 OK (0ms)
+
+
+Started GET "/assets/chat.js?body=1" for 10.80.1.60 at 2013-08-15 14:41:14 -0700
+Served asset /chat.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 10.80.1.60 at 2013-08-15 14:41:14 -0700
+Served asset /application.js - 200 OK (0ms)
+
+
+Started POST "/faye" for 10.80.1.60 at 2013-08-15 14:41:14 -0700
+
+
+Started GET "/faye" for 10.80.1.60 at 2013-08-15 14:41:14 -0700
+
+
+Started POST "/faye" for 10.80.1.60 at 2013-08-15 14:41:14 -0700
+Received on /chat: #<FayeRails::Controller::Message:0x007f817b6ad0e8 @message={"message"=>"yeow", "created_at"=>"2013-08-15T21:41:19.280Z"}, @channel="/chat">
+Received on /chat: #<FayeRails::Controller::Message:0x007f817b6a5550 @message={"message"=>"foo", "created_at"=>"2013-08-15T21:41:24.313Z"}, @channel="/chat">
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-15 15:01:56 -0700
+Processing by ChatController#index as HTML
+  Rendered chat/index.html.haml within layouts/application (19.2ms)
+Completed 200 OK in 25ms (Views: 24.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-15 15:01:56 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2013-08-15 15:01:56 -0700
+Served asset /chat.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-15 15:01:56 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2013-08-15 15:01:56 -0700
+Served asset /moment.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/faye.js?body=1" for 127.0.0.1 at 2013-08-15 15:01:56 -0700
+Served asset /faye.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2013-08-15 15:01:56 -0700
+Served asset /chat.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-15 15:01:56 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/faye" for 127.0.0.1 at 2013-08-15 15:01:56 -0700
+
+
+Started GET "/faye" for 127.0.0.1 at 2013-08-15 15:01:56 -0700
+
+
+Started POST "/faye" for 127.0.0.1 at 2013-08-15 15:01:56 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-15 23:19:56 -0500
+Processing by ChatController#index as HTML
+  Rendered chat/index.html.haml within layouts/application (5.8ms)
+Compiled jquery.js  (5ms)  (pid 33331)
+Compiled moment.js  (1ms)  (pid 33331)
+Compiled faye.js  (1ms)  (pid 33331)
+Compiled application.js  (137ms)  (pid 33331)
+Completed 200 OK in 203ms (Views: 202.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-15 23:19:57 -0500
+Served asset /application.css - 200 OK (26ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2013-11-15 23:19:57 -0500
+Served asset /chat.css - 200 OK (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-15 23:19:57 -0500
+Served asset /application.js - 200 OK (17ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-15 23:19:57 -0500
+Served asset /jquery.js - 200 OK (6ms)
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2013-11-15 23:19:57 -0500
+Served asset /moment.js - 200 OK (5ms)
+
+
+Started GET "/assets/faye.js?body=1" for 127.0.0.1 at 2013-11-15 23:19:57 -0500
+Served asset /faye.js - 200 OK (8ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2013-11-15 23:19:57 -0500
+Served asset /chat.js - 200 OK (7ms)
+
+
+Started GET "/faye" for 127.0.0.1 at 2013-11-15 23:19:57 -0500
+
+
+Started POST "/faye" for 127.0.0.1 at 2013-11-15 23:19:57 -0500
+Received on /chat: #<FayeRails::Controller::Message:0x007f967bc02510 @message={"message"=>"f00", "created_at"=>"2013-11-16T04:20:02.766Z"}, @channel="/chat">
+Received on /chat: #<FayeRails::Controller::Message:0x007f967c30fa60 @message={"message"=>"YES", "created_at"=>"2013-11-16T04:20:05.732Z"}, @channel="/chat">
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-15 23:20:12 -0500
+Processing by ChatController#index as HTML
+  Rendered chat/index.html.haml within layouts/application (1.1ms)
+Completed 200 OK in 12ms (Views: 11.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-15 23:20:13 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2013-11-15 23:20:13 -0500
+Served asset /chat.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-15 23:20:13 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2013-11-15 23:20:13 -0500
+Served asset /moment.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/faye.js?body=1" for 127.0.0.1 at 2013-11-15 23:20:13 -0500
+Served asset /faye.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2013-11-15 23:20:13 -0500
+Served asset /chat.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-15 23:20:13 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/faye" for 127.0.0.1 at 2013-11-15 23:20:14 -0500
+
+
+Started GET "/faye" for 127.0.0.1 at 2013-11-15 23:20:14 -0500
+
+
+Started POST "/faye" for 127.0.0.1 at 2013-11-15 23:20:14 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-15 23:22:21 -0500
+Processing by ChatController#index as HTML
+  Rendered chat/index.html.haml within layouts/application (1.0ms)
+Compiled chat.css  (16ms)  (pid 33331)
+Compiled application.css  (2ms)  (pid 33331)
+Completed 200 OK in 70ms (Views: 70.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-15 23:22:22 -0500
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2013-11-15 23:22:22 -0500
+Served asset /chat.css - 200 OK (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-15 23:22:22 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2013-11-15 23:22:22 -0500
+Served asset /moment.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/faye.js?body=1" for 127.0.0.1 at 2013-11-15 23:22:22 -0500
+Served asset /faye.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2013-11-15 23:22:22 -0500
+Served asset /chat.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-15 23:22:22 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/faye" for 127.0.0.1 at 2013-11-15 23:22:22 -0500
+
+
+Started POST "/faye" for 127.0.0.1 at 2013-11-15 23:22:22 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-15 23:23:01 -0500
+Processing by ChatController#index as HTML
+  Rendered chat/index.html.haml within layouts/application (1.1ms)
+Compiled chat.js  (750ms)  (pid 33331)
+Compiled application.js  (14ms)  (pid 33331)
+Completed 200 OK in 913ms (Views: 912.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-15 23:23:02 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2013-11-15 23:23:02 -0500
+Served asset /chat.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-15 23:23:02 -0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2013-11-15 23:23:02 -0500
+Served asset /moment.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/faye.js?body=1" for 127.0.0.1 at 2013-11-15 23:23:02 -0500
+Served asset /faye.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2013-11-15 23:23:02 -0500
+Served asset /chat.js - 200 OK (7ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-15 23:23:02 -0500
+Served asset /application.js - 304 Not Modified (22ms)
+
+
+Started GET "/faye" for 127.0.0.1 at 2013-11-15 23:23:02 -0500
+
+
+Started POST "/faye" for 127.0.0.1 at 2013-11-15 23:23:03 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-15 23:23:17 -0500
+Processing by ChatController#index as HTML
+  Rendered chat/index.html.haml within layouts/application (5.9ms)
+Completed 200 OK in 96ms (Views: 95.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-15 23:23:18 -0500
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2013-11-15 23:23:18 -0500
+Served asset /chat.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-15 23:23:18 -0500
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2013-11-15 23:23:18 -0500
+Served asset /moment.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/faye.js?body=1" for 127.0.0.1 at 2013-11-15 23:23:18 -0500
+Served asset /faye.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2013-11-15 23:23:18 -0500
+Served asset /chat.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-15 23:23:18 -0500
+Served asset /application.js - 304 Not Modified (22ms)
+
+
+Started GET "/faye" for 127.0.0.1 at 2013-11-15 23:23:18 -0500
+
+
+Started POST "/faye" for 127.0.0.1 at 2013-11-15 23:23:18 -0500
+Received on /chat: #<FayeRails::Controller::Message:0x007fc97a0a2698 @message={"message"=>"f00", "created_at"=>"2013-11-16T04:23:24.901Z"}, @channel="/chat">
+Received on /chat: #<FayeRails::Controller::Message:0x007fc97b36bf40 @message={"message"=>"yuh!", "created_at"=>"2013-11-16T04:23:31.360Z"}, @channel="/chat">
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-15 23:24:06 -0500
+Processing by ChatController#index as HTML
+  Rendered chat/index.html.haml within layouts/application (1.0ms)
+Compiled chat.css  (21ms)  (pid 33356)
+Compiled application.css  (2ms)  (pid 33356)
+Completed 200 OK in 504ms (Views: 503.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-15 23:24:07 -0500
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2013-11-15 23:24:07 -0500
+Served asset /chat.css - 200 OK (7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-15 23:24:07 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2013-11-15 23:24:07 -0500
+Served asset /moment.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/faye.js?body=1" for 127.0.0.1 at 2013-11-15 23:24:07 -0500
+Served asset /faye.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2013-11-15 23:24:07 -0500
+Served asset /chat.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-15 23:24:07 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/faye" for 127.0.0.1 at 2013-11-15 23:24:07 -0500
+
+
+Started POST "/faye" for 127.0.0.1 at 2013-11-15 23:24:07 -0500
+Received on /chat: #<FayeRails::Controller::Message:0x007fc97ab79260 @message={"message"=>"out of the blue", "created_at"=>"2013-11-16T04:24:14.697Z"}, @channel="/chat">
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-15 23:24:22 -0500
+Processing by ChatController#index as HTML
+  Rendered chat/index.html.haml within layouts/application (1.0ms)
+Compiled chat.css  (9ms)  (pid 33356)
+Compiled application.css  (2ms)  (pid 33356)
+Completed 200 OK in 66ms (Views: 65.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-15 23:24:22 -0500
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2013-11-15 23:24:22 -0500
+Served asset /chat.css - 200 OK (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-15 23:24:22 -0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2013-11-15 23:24:22 -0500
+Served asset /moment.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/faye.js?body=1" for 127.0.0.1 at 2013-11-15 23:24:22 -0500
+Served asset /faye.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2013-11-15 23:24:22 -0500
+Served asset /chat.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-15 23:24:22 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/faye" for 127.0.0.1 at 2013-11-15 23:24:22 -0500
+
+
+Started POST "/faye" for 127.0.0.1 at 2013-11-15 23:24:23 -0500
+Received on /chat: #<FayeRails::Controller::Message:0x007fc97a4dddc0 @message={"message"=>"itgoesitogesitgoes", "created_at"=>"2013-11-16T04:24:32.711Z"}, @channel="/chat">
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-15 23:24:56 -0500
+Processing by ChatController#index as HTML
+  Rendered chat/index.html.haml within layouts/application (1.1ms)
+Completed 200 OK in 12ms (Views: 11.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-15 23:24:57 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2013-11-15 23:24:57 -0500
+Served asset /chat.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-15 23:24:57 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2013-11-15 23:24:57 -0500
+Served asset /moment.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/faye.js?body=1" for 127.0.0.1 at 2013-11-15 23:24:57 -0500
+Served asset /faye.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2013-11-15 23:24:57 -0500
+Served asset /chat.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-15 23:24:57 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/faye" for 127.0.0.1 at 2013-11-15 23:24:57 -0500
+
+
+Started GET "/faye" for 127.0.0.1 at 2013-11-15 23:24:57 -0500
+
+
+Started POST "/faye" for 127.0.0.1 at 2013-11-15 23:24:58 -0500
+Received on /chat: #<FayeRails::Controller::Message:0x007fc97acdc828 @message={"message"=>"blam", "created_at"=>"2013-11-16T04:25:01.433Z"}, @channel="/chat">
+Received on /chat: #<FayeRails::Controller::Message:0x007fc97a566da0 @message={"message"=>"ohmy", "created_at"=>"2013-11-16T04:25:08.757Z"}, @channel="/chat">
