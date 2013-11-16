@@ -14,8 +14,8 @@ client.subscribe '/p', (payload)->
     $("#libload").attr('value', "#{payload.message}")  
 
 $(document).ready ->
-  libload = $('input#libload')
-  loadField = $('button#loadField')
+  libload = $('#libload')
+  loadField = $('#loadField')
   loadField.click ->
     loadField.attr('disabled', 'disabled')
     loadField.text('posting...')
