@@ -15,13 +15,15 @@ ul#chat {
 	left: 0;
 	margin: 0;
 	padding: 0;
+	width:200px;
 	list-style:none;
 	z-index:1;
 	scroll:auto;
+	overflow:hidden;
 }
 
 .post {
-	position:absolute;
+	position:fixed;
 	top:0;
 	z-index:6;
 

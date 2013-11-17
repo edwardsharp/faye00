@@ -1,5 +1,7 @@
 #container {
-  top: 100px;
+  position: absolute;
+  left:200px;
+  top: 0;
   margin: 40px;
   width: 750px;
 }
@@ -31,7 +33,7 @@
 }
 
 #config-panel table {
-  background-color: #ffe;
+  background-color: yellow;
   border: 1px dotted #333;
   border-collapse : collapse;
   width : 450px;

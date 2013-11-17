@@ -15066,3 +15066,1717 @@ Received on /chat: #<FayeRails::Controller::Message:0x007fd47d24de80 @message={"
 Received on /p: #<FayeRails::Controller::Message:0x007fd47c48c508 @message={"message"=>"[\"noise\",0.0000,0.4000,0.0000,0.0060,0.0000,0.1220,20.0000,460.0000,2400.0000,0.0000,0.0000,0.0000,0.0100,0.0003,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.9990,0.0000,0.0000,0.0000,0.0000]", "created_at"=>"2013-11-16T23:54:57.656Z"}, @channel="/p">
 Received on /chat: #<FayeRails::Controller::Message:0x007fd47cba7d88 @message={"message"=>"", "created_at"=>"2013-11-16T23:54:59.892Z"}, @channel="/chat">
 Received on /p: #<FayeRails::Controller::Message:0x007fd47cba6de8 @message={"message"=>"[\"noise\",0.0000,0.4000,0.0000,0.0060,0.0000,0.1220,20.0000,460.0000,2400.0000,0.0000,0.0000,0.0000,0.0100,0.0003,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.9990,0.0000,0.0000,0.0000,0.0000]", "created_at"=>"2013-11-16T23:54:59.892Z"}, @channel="/p">
+Received on /chat: #<FayeRails::Controller::Message:0x007fd47cc5a488 @message={"message"=>"", "created_at"=>"2013-11-17T01:28:25.225Z"}, @channel="/chat">
+Received on /p: #<FayeRails::Controller::Message:0x007fd47cc31d08 @message={"message"=>"[\"square\",0.0000,0.4000,0.0000,0.1080,0.0000,0.5000,20.0000,555.0000,2400.0000,0.2400,0.0000,0.4830,25.9246,0.0003,0.0000,0.0000,0.0000,0.3520,0.0000,0.0000,0.0000,0.0000,1.0000,0.0000,0.0000,0.0000,0.0000]", "created_at"=>"2013-11-17T01:28:25.226Z"}, @channel="/p">
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-16 20:37:32 -0500
+Processing by ChatController#index as HTML
+  Rendered chat/index.html.haml within layouts/application (2.3ms)
+Compiled p.css  (0ms)  (pid 36484)
+Compiled application.css  (1ms)  (pid 36484)
+Completed 200 OK in 35ms (Views: 35.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-16 20:37:32 -0500
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2013-11-16 20:37:32 -0500
+Served asset /chat.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/p.css?body=1" for 127.0.0.1 at 2013-11-16 20:37:32 -0500
+Served asset /p.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-16 20:37:32 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2013-11-16 20:37:32 -0500
+Served asset /moment.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/faye.js?body=1" for 127.0.0.1 at 2013-11-16 20:37:32 -0500
+Served asset /faye.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jsfx-master/lib/jsfx.js?body=1" for 127.0.0.1 at 2013-11-16 20:37:32 -0500
+Served asset /jsfx-master/lib/jsfx.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/init_faye.js?body=1" for 127.0.0.1 at 2013-11-16 20:37:32 -0500
+Served asset /init_faye.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jsfx-master/lib/audio.js?body=1" for 127.0.0.1 at 2013-11-16 20:37:32 -0500
+Served asset /jsfx-master/lib/audio.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jsfx-master/lib/jsfxlib.js?body=1" for 127.0.0.1 at 2013-11-16 20:37:32 -0500
+Served asset /jsfx-master/lib/jsfxlib.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jsfx-master/lib/jsfxgui.js?body=1" for 127.0.0.1 at 2013-11-16 20:37:32 -0500
+Served asset /jsfx-master/lib/jsfxgui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2013-11-16 20:37:32 -0500
+Served asset /chat.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jsfxgui.js?body=1" for 127.0.0.1 at 2013-11-16 20:37:32 -0500
+Served asset /jsfxgui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/p.js?body=1" for 127.0.0.1 at 2013-11-16 20:37:32 -0500
+Served asset /p.js - 304 Not Modified (0ms)
+
+
+Started GET "/faye" for 127.0.0.1 at 2013-11-16 20:37:33 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-16 20:37:33 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/faye" for 127.0.0.1 at 2013-11-16 20:37:33 -0500
+
+
+Started GET "/assets/faye-browser-min.js.map" for 127.0.0.1 at 2013-11-16 20:37:33 -0500
+Served asset /faye-browser-min.js.map - 404 Not Found (7ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/faye-browser-min.js.map"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.4) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.4) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.4) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  faye-websocket (0.4.6) lib/faye/adapters/thin.rb:41:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  faye-websocket (0.4.6) lib/faye/adapters/thin.rb:45:in `receive_data'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.4) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.4) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /Users/edward/.rvm/gems/ruby-1.9.3-p125@micronemez_railz3/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-16 20:37:59 -0500
+Processing by ChatController#index as HTML
+  Rendered chat/index.html.haml within layouts/application (4.2ms)
+Compiled p.css  (0ms)  (pid 36484)
+Compiled application.css  (3ms)  (pid 36484)
+Completed 200 OK in 150ms (Views: 149.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-16 20:38:00 -0500
+Served asset /application.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2013-11-16 20:38:00 -0500
+Served asset /chat.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/p.css?body=1" for 127.0.0.1 at 2013-11-16 20:38:00 -0500
+Served asset /p.css - 200 OK (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-16 20:38:00 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2013-11-16 20:38:00 -0500
+Served asset /moment.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/faye.js?body=1" for 127.0.0.1 at 2013-11-16 20:38:00 -0500
+Served asset /faye.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/init_faye.js?body=1" for 127.0.0.1 at 2013-11-16 20:38:00 -0500
+Served asset /init_faye.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jsfx-master/lib/audio.js?body=1" for 127.0.0.1 at 2013-11-16 20:38:00 -0500
+Served asset /jsfx-master/lib/audio.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jsfx-master/lib/jsfx.js?body=1" for 127.0.0.1 at 2013-11-16 20:38:00 -0500
+Served asset /jsfx-master/lib/jsfx.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jsfx-master/lib/jsfxlib.js?body=1" for 127.0.0.1 at 2013-11-16 20:38:00 -0500
+Served asset /jsfx-master/lib/jsfxlib.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jsfx-master/lib/jsfxgui.js?body=1" for 127.0.0.1 at 2013-11-16 20:38:00 -0500
+Served asset /jsfx-master/lib/jsfxgui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jsfxgui.js?body=1" for 127.0.0.1 at 2013-11-16 20:38:00 -0500
+Served asset /jsfxgui.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2013-11-16 20:38:00 -0500
+Served asset /chat.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/p.js?body=1" for 127.0.0.1 at 2013-11-16 20:38:00 -0500
+Served asset /p.js - 304 Not Modified (0ms)
+
+
+Started GET "/faye" for 127.0.0.1 at 2013-11-16 20:38:00 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-16 20:38:00 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/faye" for 127.0.0.1 at 2013-11-16 20:38:00 -0500
+
+
+Started GET "/assets/faye-browser-min.js.map" for 127.0.0.1 at 2013-11-16 20:38:00 -0500
+Served asset /faye-browser-min.js.map - 404 Not Found (7ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/faye-browser-min.js.map"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.4) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.4) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.4) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  faye-websocket (0.4.6) lib/faye/adapters/thin.rb:41:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  faye-websocket (0.4.6) lib/faye/adapters/thin.rb:45:in `receive_data'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.4) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.4) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /Users/edward/.rvm/gems/ruby-1.9.3-p125@micronemez_railz3/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+Received on /chat: #<FayeRails::Controller::Message:0x007fd47c485280 @message={"message"=>"ZEEFUCK", "created_at"=>"2013-11-17T01:38:09.569Z"}, @channel="/chat">
+Received on /chat: #<FayeRails::Controller::Message:0x007fd47da6bd60 @message={"message"=>"okay", "created_at"=>"2013-11-17T01:38:13.101Z"}, @channel="/chat">
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-16 20:38:34 -0500
+Processing by ChatController#index as HTML
+  Rendered chat/index.html.haml within layouts/application (3.3ms)
+Compiled chat.css  (37ms)  (pid 36484)
+Compiled application.css  (2ms)  (pid 36484)
+Completed 200 OK in 96ms (Views: 96.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-16 20:38:34 -0500
+Served asset /application.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2013-11-16 20:38:34 -0500
+Served asset /chat.css - 200 OK (5ms)
+
+
+Started GET "/assets/p.css?body=1" for 127.0.0.1 at 2013-11-16 20:38:34 -0500
+Served asset /p.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-16 20:38:34 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2013-11-16 20:38:34 -0500
+Served asset /moment.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/faye.js?body=1" for 127.0.0.1 at 2013-11-16 20:38:34 -0500
+Served asset /faye.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jsfx-master/lib/audio.js?body=1" for 127.0.0.1 at 2013-11-16 20:38:34 -0500
+Served asset /jsfx-master/lib/audio.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/init_faye.js?body=1" for 127.0.0.1 at 2013-11-16 20:38:34 -0500
+Served asset /init_faye.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jsfx-master/lib/jsfx.js?body=1" for 127.0.0.1 at 2013-11-16 20:38:34 -0500
+Served asset /jsfx-master/lib/jsfx.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jsfx-master/lib/jsfxlib.js?body=1" for 127.0.0.1 at 2013-11-16 20:38:34 -0500
+Served asset /jsfx-master/lib/jsfxlib.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jsfx-master/lib/jsfxgui.js?body=1" for 127.0.0.1 at 2013-11-16 20:38:34 -0500
+Served asset /jsfx-master/lib/jsfxgui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2013-11-16 20:38:34 -0500
+Served asset /chat.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jsfxgui.js?body=1" for 127.0.0.1 at 2013-11-16 20:38:34 -0500
+Served asset /jsfxgui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/p.js?body=1" for 127.0.0.1 at 2013-11-16 20:38:34 -0500
+Served asset /p.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-16 20:38:35 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/faye" for 127.0.0.1 at 2013-11-16 20:38:35 -0500
+
+
+Started POST "/faye" for 127.0.0.1 at 2013-11-16 20:38:35 -0500
+
+
+Started GET "/assets/faye-browser-min.js.map" for 127.0.0.1 at 2013-11-16 20:38:35 -0500
+Served asset /faye-browser-min.js.map - 404 Not Found (7ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/faye-browser-min.js.map"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.4) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.4) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.4) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  faye-websocket (0.4.6) lib/faye/adapters/thin.rb:41:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  faye-websocket (0.4.6) lib/faye/adapters/thin.rb:45:in `receive_data'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.4) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.4) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /Users/edward/.rvm/gems/ruby-1.9.3-p125@micronemez_railz3/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+Received on /chat: #<FayeRails::Controller::Message:0x007fd47ddff198 @message={"message"=>"OKAYOKAYOKAYOKAYOKAYOKAYOKAYOKAYOKAYOKAYOKAYOKAYOKAYOKAYOKAYOKAYOKAYOKAYOKAYOKAYOKAYOKAY", "created_at"=>"2013-11-17T01:38:42.174Z"}, @channel="/chat">
+Received on /chat: #<FayeRails::Controller::Message:0x007fd47de02cd0 @message={"message"=>"okay", "created_at"=>"2013-11-17T01:38:45.496Z"}, @channel="/chat">
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-16 20:39:20 -0500
+Processing by ChatController#index as HTML
+  Rendered chat/index.html.haml within layouts/application (3.4ms)
+Compiled chat.css  (10ms)  (pid 36484)
+Compiled application.css  (3ms)  (pid 36484)
+Completed 200 OK in 74ms (Views: 73.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-16 20:39:20 -0500
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2013-11-16 20:39:20 -0500
+Served asset /chat.css - 200 OK (52ms)
+
+
+Started GET "/assets/p.css?body=1" for 127.0.0.1 at 2013-11-16 20:39:20 -0500
+Served asset /p.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-16 20:39:20 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2013-11-16 20:39:20 -0500
+Served asset /moment.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/faye.js?body=1" for 127.0.0.1 at 2013-11-16 20:39:20 -0500
+Served asset /faye.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/init_faye.js?body=1" for 127.0.0.1 at 2013-11-16 20:39:21 -0500
+Served asset /init_faye.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jsfx-master/lib/audio.js?body=1" for 127.0.0.1 at 2013-11-16 20:39:21 -0500
+Served asset /jsfx-master/lib/audio.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2013-11-16 20:39:21 -0500
+Served asset /chat.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jsfx-master/lib/jsfx.js?body=1" for 127.0.0.1 at 2013-11-16 20:39:21 -0500
+Served asset /jsfx-master/lib/jsfx.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jsfx-master/lib/jsfxlib.js?body=1" for 127.0.0.1 at 2013-11-16 20:39:21 -0500
+Served asset /jsfx-master/lib/jsfxlib.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jsfx-master/lib/jsfxgui.js?body=1" for 127.0.0.1 at 2013-11-16 20:39:21 -0500
+Served asset /jsfx-master/lib/jsfxgui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jsfxgui.js?body=1" for 127.0.0.1 at 2013-11-16 20:39:21 -0500
+Served asset /jsfxgui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/p.js?body=1" for 127.0.0.1 at 2013-11-16 20:39:21 -0500
+Served asset /p.js - 304 Not Modified (0ms)
+
+
+Started GET "/faye" for 127.0.0.1 at 2013-11-16 20:39:21 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-16 20:39:21 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/faye" for 127.0.0.1 at 2013-11-16 20:39:21 -0500
+
+
+Started GET "/assets/faye-browser-min.js.map" for 127.0.0.1 at 2013-11-16 20:39:21 -0500
+Served asset /faye-browser-min.js.map - 404 Not Found (6ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/faye-browser-min.js.map"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.4) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.4) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.4) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  faye-websocket (0.4.6) lib/faye/adapters/thin.rb:41:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  faye-websocket (0.4.6) lib/faye/adapters/thin.rb:45:in `receive_data'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.4) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.4) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /Users/edward/.rvm/gems/ruby-1.9.3-p125@micronemez_railz3/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+Received on /chat: #<FayeRails::Controller::Message:0x007fd47d6a9678 @message={"message"=>"do not say too much", "created_at"=>"2013-11-17T01:39:31.775Z"}, @channel="/chat">
+Received on /chat: #<FayeRails::Controller::Message:0x007fd47d6a9ee8 @message={"message"=>"or more linez", "created_at"=>"2013-11-17T01:39:39.237Z"}, @channel="/chat">
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-16 20:44:11 -0500
+Processing by ChatController#index as HTML
+  Rendered chat/index.html.haml within layouts/application (3.9ms)
+Compiled chat.css  (9ms)  (pid 36484)
+Compiled p.css  (0ms)  (pid 36484)
+Compiled application.css  (1ms)  (pid 36484)
+Completed 200 OK in 58ms (Views: 58.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-16 20:44:12 -0500
+Served asset /application.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2013-11-16 20:44:12 -0500
+Served asset /chat.css - 200 OK (4ms)
+
+
+Started GET "/assets/p.css?body=1" for 127.0.0.1 at 2013-11-16 20:44:12 -0500
+Served asset /p.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-16 20:44:12 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2013-11-16 20:44:12 -0500
+Served asset /moment.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/faye.js?body=1" for 127.0.0.1 at 2013-11-16 20:44:12 -0500
+Served asset /faye.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/init_faye.js?body=1" for 127.0.0.1 at 2013-11-16 20:44:12 -0500
+Served asset /init_faye.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jsfx-master/lib/audio.js?body=1" for 127.0.0.1 at 2013-11-16 20:44:12 -0500
+Served asset /jsfx-master/lib/audio.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jsfx-master/lib/jsfx.js?body=1" for 127.0.0.1 at 2013-11-16 20:44:12 -0500
+Served asset /jsfx-master/lib/jsfx.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jsfx-master/lib/jsfxlib.js?body=1" for 127.0.0.1 at 2013-11-16 20:44:12 -0500
+Served asset /jsfx-master/lib/jsfxlib.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jsfx-master/lib/jsfxgui.js?body=1" for 127.0.0.1 at 2013-11-16 20:44:12 -0500
+Served asset /jsfx-master/lib/jsfxgui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2013-11-16 20:44:12 -0500
+Served asset /chat.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jsfxgui.js?body=1" for 127.0.0.1 at 2013-11-16 20:44:12 -0500
+Served asset /jsfxgui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/p.js?body=1" for 127.0.0.1 at 2013-11-16 20:44:12 -0500
+Served asset /p.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-16 20:44:12 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/faye" for 127.0.0.1 at 2013-11-16 20:44:12 -0500
+
+
+Started POST "/faye" for 127.0.0.1 at 2013-11-16 20:44:12 -0500
+
+
+Started GET "/assets/faye-browser-min.js.map" for 127.0.0.1 at 2013-11-16 20:44:12 -0500
+Served asset /faye-browser-min.js.map - 404 Not Found (7ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/faye-browser-min.js.map"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.4) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.4) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.4) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  faye-websocket (0.4.6) lib/faye/adapters/thin.rb:41:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  faye-websocket (0.4.6) lib/faye/adapters/thin.rb:45:in `receive_data'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.4) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.4) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /Users/edward/.rvm/gems/ruby-1.9.3-p125@micronemez_railz3/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-16 20:44:32 -0500
+Processing by ChatController#index as HTML
+  Rendered chat/index.html.haml within layouts/application (3.1ms)
+Compiled chat.css  (9ms)  (pid 36484)
+Compiled application.css  (1ms)  (pid 36484)
+Completed 200 OK in 47ms (Views: 47.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-16 20:44:33 -0500
+Served asset /application.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2013-11-16 20:44:33 -0500
+Served asset /chat.css - 200 OK (12ms)
+
+
+Started GET "/assets/p.css?body=1" for 127.0.0.1 at 2013-11-16 20:44:33 -0500
+Served asset /p.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-16 20:44:33 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2013-11-16 20:44:33 -0500
+Served asset /moment.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/faye.js?body=1" for 127.0.0.1 at 2013-11-16 20:44:33 -0500
+Served asset /faye.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/init_faye.js?body=1" for 127.0.0.1 at 2013-11-16 20:44:33 -0500
+Served asset /init_faye.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jsfx-master/lib/audio.js?body=1" for 127.0.0.1 at 2013-11-16 20:44:33 -0500
+Served asset /jsfx-master/lib/audio.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jsfx-master/lib/jsfx.js?body=1" for 127.0.0.1 at 2013-11-16 20:44:33 -0500
+Served asset /jsfx-master/lib/jsfx.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jsfx-master/lib/jsfxlib.js?body=1" for 127.0.0.1 at 2013-11-16 20:44:33 -0500
+Served asset /jsfx-master/lib/jsfxlib.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jsfx-master/lib/jsfxgui.js?body=1" for 127.0.0.1 at 2013-11-16 20:44:33 -0500
+Served asset /jsfx-master/lib/jsfxgui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2013-11-16 20:44:33 -0500
+Served asset /chat.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jsfxgui.js?body=1" for 127.0.0.1 at 2013-11-16 20:44:33 -0500
+Served asset /jsfxgui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/p.js?body=1" for 127.0.0.1 at 2013-11-16 20:44:33 -0500
+Served asset /p.js - 304 Not Modified (0ms)
+
+
+Started GET "/faye" for 127.0.0.1 at 2013-11-16 20:44:33 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-16 20:44:33 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/faye-browser-min.js.map" for 127.0.0.1 at 2013-11-16 20:44:33 -0500
+Served asset /faye-browser-min.js.map - 404 Not Found (8ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/faye-browser-min.js.map"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.4) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.4) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.4) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  faye-websocket (0.4.6) lib/faye/adapters/thin.rb:41:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  faye-websocket (0.4.6) lib/faye/adapters/thin.rb:45:in `receive_data'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.4) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.4) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /Users/edward/.rvm/gems/ruby-1.9.3-p125@micronemez_railz3/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started POST "/faye" for 127.0.0.1 at 2013-11-16 20:44:33 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-16 20:44:57 -0500
+Processing by ChatController#index as HTML
+  Rendered chat/index.html.haml within layouts/application (4.9ms)
+Compiled chat.css  (20ms)  (pid 36484)
+Compiled application.css  (7ms)  (pid 36484)
+Completed 200 OK in 87ms (Views: 87.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-16 20:44:57 -0500
+Served asset /application.css - 304 Not Modified (18ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2013-11-16 20:44:57 -0500
+Served asset /chat.css - 200 OK (5ms)
+
+
+Started GET "/assets/p.css?body=1" for 127.0.0.1 at 2013-11-16 20:44:57 -0500
+Served asset /p.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-16 20:44:57 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2013-11-16 20:44:57 -0500
+Served asset /moment.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/faye.js?body=1" for 127.0.0.1 at 2013-11-16 20:44:57 -0500
+Served asset /faye.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/init_faye.js?body=1" for 127.0.0.1 at 2013-11-16 20:44:57 -0500
+Served asset /init_faye.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jsfx-master/lib/audio.js?body=1" for 127.0.0.1 at 2013-11-16 20:44:57 -0500
+Served asset /jsfx-master/lib/audio.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jsfx-master/lib/jsfx.js?body=1" for 127.0.0.1 at 2013-11-16 20:44:57 -0500
+Served asset /jsfx-master/lib/jsfx.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2013-11-16 20:44:57 -0500
+Served asset /chat.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jsfx-master/lib/jsfxlib.js?body=1" for 127.0.0.1 at 2013-11-16 20:44:57 -0500
+Served asset /jsfx-master/lib/jsfxlib.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jsfx-master/lib/jsfxgui.js?body=1" for 127.0.0.1 at 2013-11-16 20:44:57 -0500
+Served asset /jsfx-master/lib/jsfxgui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jsfxgui.js?body=1" for 127.0.0.1 at 2013-11-16 20:44:57 -0500
+Served asset /jsfxgui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/p.js?body=1" for 127.0.0.1 at 2013-11-16 20:44:57 -0500
+Served asset /p.js - 304 Not Modified (0ms)
+
+
+Started GET "/faye" for 127.0.0.1 at 2013-11-16 20:44:58 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-16 20:44:58 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started POST "/faye" for 127.0.0.1 at 2013-11-16 20:44:58 -0500
+
+
+Started GET "/assets/faye-browser-min.js.map" for 127.0.0.1 at 2013-11-16 20:44:58 -0500
+Served asset /faye-browser-min.js.map - 404 Not Found (9ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/faye-browser-min.js.map"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.4) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.4) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.4) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  faye-websocket (0.4.6) lib/faye/adapters/thin.rb:41:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  faye-websocket (0.4.6) lib/faye/adapters/thin.rb:45:in `receive_data'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.4) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.4) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /Users/edward/.rvm/gems/ruby-1.9.3-p125@micronemez_railz3/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+Received on /chat: #<FayeRails::Controller::Message:0x007fd47c54e680 @message={"message"=>"okay", "created_at"=>"2013-11-17T01:45:04.613Z"}, @channel="/chat">
+Received on /chat: #<FayeRails::Controller::Message:0x007fd47d6500c8 @message={"message"=>"pump up", "created_at"=>"2013-11-17T01:45:09.795Z"}, @channel="/chat">
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-16 20:45:29 -0500
+Processing by ChatController#index as HTML
+  Rendered chat/index.html.haml within layouts/application (4.3ms)
+Compiled p.css  (0ms)  (pid 36484)
+Compiled application.css  (3ms)  (pid 36484)
+Completed 200 OK in 50ms (Views: 50.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-16 20:45:30 -0500
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2013-11-16 20:45:30 -0500
+Served asset /chat.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/p.css?body=1" for 127.0.0.1 at 2013-11-16 20:45:30 -0500
+Served asset /p.css - 200 OK (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-16 20:45:30 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2013-11-16 20:45:30 -0500
+Served asset /moment.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/faye.js?body=1" for 127.0.0.1 at 2013-11-16 20:45:30 -0500
+Served asset /faye.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/init_faye.js?body=1" for 127.0.0.1 at 2013-11-16 20:45:30 -0500
+Served asset /init_faye.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jsfx-master/lib/audio.js?body=1" for 127.0.0.1 at 2013-11-16 20:45:30 -0500
+Served asset /jsfx-master/lib/audio.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jsfx-master/lib/jsfx.js?body=1" for 127.0.0.1 at 2013-11-16 20:45:30 -0500
+Served asset /jsfx-master/lib/jsfx.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jsfx-master/lib/jsfxlib.js?body=1" for 127.0.0.1 at 2013-11-16 20:45:30 -0500
+Served asset /jsfx-master/lib/jsfxlib.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/p.js?body=1" for 127.0.0.1 at 2013-11-16 20:45:30 -0500
+Served asset /p.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jsfx-master/lib/jsfxgui.js?body=1" for 127.0.0.1 at 2013-11-16 20:45:30 -0500
+Served asset /jsfx-master/lib/jsfxgui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2013-11-16 20:45:30 -0500
+Served asset /chat.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jsfxgui.js?body=1" for 127.0.0.1 at 2013-11-16 20:45:30 -0500
+Served asset /jsfxgui.js - 304 Not Modified (0ms)
+
+
+Started GET "/faye" for 127.0.0.1 at 2013-11-16 20:45:30 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-16 20:45:30 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/faye" for 127.0.0.1 at 2013-11-16 20:45:30 -0500
+
+
+Started GET "/assets/faye-browser-min.js.map" for 127.0.0.1 at 2013-11-16 20:45:30 -0500
+Served asset /faye-browser-min.js.map - 404 Not Found (9ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/faye-browser-min.js.map"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.4) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.4) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.4) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  faye-websocket (0.4.6) lib/faye/adapters/thin.rb:41:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  faye-websocket (0.4.6) lib/faye/adapters/thin.rb:45:in `receive_data'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.4) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.4) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /Users/edward/.rvm/gems/ruby-1.9.3-p125@micronemez_railz3/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-16 20:46:31 -0500
+Processing by ChatController#index as HTML
+  Rendered chat/index.html.haml within layouts/application (4.9ms)
+Completed 200 OK in 21ms (Views: 21.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-16 20:46:31 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2013-11-16 20:46:31 -0500
+Served asset /chat.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/p.css?body=1" for 127.0.0.1 at 2013-11-16 20:46:31 -0500
+Served asset /p.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-16 20:46:31 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2013-11-16 20:46:31 -0500
+Served asset /moment.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/faye.js?body=1" for 127.0.0.1 at 2013-11-16 20:46:31 -0500
+Served asset /faye.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/init_faye.js?body=1" for 127.0.0.1 at 2013-11-16 20:46:31 -0500
+Served asset /init_faye.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jsfx-master/lib/audio.js?body=1" for 127.0.0.1 at 2013-11-16 20:46:31 -0500
+Served asset /jsfx-master/lib/audio.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jsfx-master/lib/jsfx.js?body=1" for 127.0.0.1 at 2013-11-16 20:46:31 -0500
+Served asset /jsfx-master/lib/jsfx.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jsfx-master/lib/jsfxlib.js?body=1" for 127.0.0.1 at 2013-11-16 20:46:31 -0500
+Served asset /jsfx-master/lib/jsfxlib.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jsfx-master/lib/jsfxgui.js?body=1" for 127.0.0.1 at 2013-11-16 20:46:31 -0500
+Served asset /jsfx-master/lib/jsfxgui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2013-11-16 20:46:31 -0500
+Served asset /chat.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jsfxgui.js?body=1" for 127.0.0.1 at 2013-11-16 20:46:31 -0500
+Served asset /jsfxgui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/p.js?body=1" for 127.0.0.1 at 2013-11-16 20:46:31 -0500
+Served asset /p.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-16 20:46:31 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/faye" for 127.0.0.1 at 2013-11-16 20:46:31 -0500
+
+
+Started POST "/faye" for 127.0.0.1 at 2013-11-16 20:46:31 -0500
+
+
+Started GET "/assets/faye-browser-min.js.map" for 127.0.0.1 at 2013-11-16 20:46:32 -0500
+Served asset /faye-browser-min.js.map - 404 Not Found (8ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/faye-browser-min.js.map"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.4) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.4) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.4) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  faye-websocket (0.4.6) lib/faye/adapters/thin.rb:41:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  faye-websocket (0.4.6) lib/faye/adapters/thin.rb:45:in `receive_data'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.4) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.4) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /Users/edward/.rvm/gems/ruby-1.9.3-p125@micronemez_railz3/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-16 20:46:35 -0500
+Processing by ChatController#index as HTML
+  Rendered chat/index.html.haml within layouts/application (2.4ms)
+Completed 200 OK in 11ms (Views: 10.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-16 20:46:35 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2013-11-16 20:46:35 -0500
+Served asset /chat.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/p.css?body=1" for 127.0.0.1 at 2013-11-16 20:46:35 -0500
+Served asset /p.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-16 20:46:35 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2013-11-16 20:46:35 -0500
+Served asset /moment.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/faye.js?body=1" for 127.0.0.1 at 2013-11-16 20:46:35 -0500
+Served asset /faye.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/init_faye.js?body=1" for 127.0.0.1 at 2013-11-16 20:46:35 -0500
+Served asset /init_faye.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jsfx-master/lib/audio.js?body=1" for 127.0.0.1 at 2013-11-16 20:46:35 -0500
+Served asset /jsfx-master/lib/audio.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jsfx-master/lib/jsfx.js?body=1" for 127.0.0.1 at 2013-11-16 20:46:35 -0500
+Served asset /jsfx-master/lib/jsfx.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jsfx-master/lib/jsfxlib.js?body=1" for 127.0.0.1 at 2013-11-16 20:46:35 -0500
+Served asset /jsfx-master/lib/jsfxlib.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jsfx-master/lib/jsfxgui.js?body=1" for 127.0.0.1 at 2013-11-16 20:46:35 -0500
+Served asset /jsfx-master/lib/jsfxgui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2013-11-16 20:46:35 -0500
+Served asset /chat.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jsfxgui.js?body=1" for 127.0.0.1 at 2013-11-16 20:46:35 -0500
+Served asset /jsfxgui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/p.js?body=1" for 127.0.0.1 at 2013-11-16 20:46:35 -0500
+Served asset /p.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-16 20:46:35 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/faye" for 127.0.0.1 at 2013-11-16 20:46:35 -0500
+
+
+Started POST "/faye" for 127.0.0.1 at 2013-11-16 20:46:35 -0500
+
+
+Started GET "/assets/faye-browser-min.js.map" for 127.0.0.1 at 2013-11-16 20:46:35 -0500
+Served asset /faye-browser-min.js.map - 404 Not Found (6ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/faye-browser-min.js.map"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.4) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.4) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.4) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  faye-websocket (0.4.6) lib/faye/adapters/thin.rb:41:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  faye-websocket (0.4.6) lib/faye/adapters/thin.rb:45:in `receive_data'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.4) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.4) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /Users/edward/.rvm/gems/ruby-1.9.3-p125@micronemez_railz3/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-16 20:46:56 -0500
+Processing by ChatController#index as HTML
+  Rendered chat/index.html.haml within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (Inconsistent indentation: "    \t\t" was used for indentation, but the rest of the document was indented using 2 spaces.):
+    11:   %div#main
+    12:     %div#button-panel        
+    13:       %div#sample-generators.button-set
+    14:     		%button#reset{ onclick: "jsfxgui.reset()"} reset
+    15:     		
+    16:     %div#stuff 
+    17:       %input#libload{type: "text", value:'["noise",0.0000,0.4000,0.0000,0.0060,0.0000,0.1220,20.0000,460.0000,2400.0000,-0.  5240,0.0000,0.0000,0.0100,0.0003,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.9990,0.0000,0.0000,0.0000,0.  0000]'}
+  app/views/chat/index.html.haml:14
+
+
+  Rendered /Users/edward/.rvm/gems/ruby-1.9.3-p125@micronemez_railz3/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+  Rendered /Users/edward/.rvm/gems/ruby-1.9.3-p125@micronemez_railz3/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /Users/edward/.rvm/gems/ruby-1.9.3-p125@micronemez_railz3/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-16 20:46:57 -0500
+Processing by ChatController#index as HTML
+  Rendered chat/index.html.haml within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (Inconsistent indentation: "    \t\t" was used for indentation, but the rest of the document was indented using 2 spaces.):
+    11:   %div#main
+    12:     %div#button-panel        
+    13:       %div#sample-generators.button-set
+    14:     		%button#reset{ onclick: "jsfxgui.reset()"} reset
+    15:     		
+    16:     %div#stuff 
+    17:       %input#libload{type: "text", value:'["noise",0.0000,0.4000,0.0000,0.0060,0.0000,0.1220,20.0000,460.0000,2400.0000,-0.  5240,0.0000,0.0000,0.0100,0.0003,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.9990,0.0000,0.0000,0.0000,0.  0000]'}
+  app/views/chat/index.html.haml:14
+
+
+  Rendered /Users/edward/.rvm/gems/ruby-1.9.3-p125@micronemez_railz3/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/edward/.rvm/gems/ruby-1.9.3-p125@micronemez_railz3/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/edward/.rvm/gems/ruby-1.9.3-p125@micronemez_railz3/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-16 20:47:45 -0500
+Processing by ChatController#index as HTML
+  Rendered chat/index.html.haml within layouts/application (11.5ms)
+Completed 200 OK in 110ms (Views: 109.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-16 20:47:46 -0500
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2013-11-16 20:47:46 -0500
+Served asset /chat.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/p.css?body=1" for 127.0.0.1 at 2013-11-16 20:47:46 -0500
+Served asset /p.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-16 20:47:46 -0500
+Served asset /jquery.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2013-11-16 20:47:46 -0500
+Served asset /moment.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/faye.js?body=1" for 127.0.0.1 at 2013-11-16 20:47:46 -0500
+Served asset /faye.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/init_faye.js?body=1" for 127.0.0.1 at 2013-11-16 20:47:46 -0500
+Served asset /init_faye.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jsfx-master/lib/audio.js?body=1" for 127.0.0.1 at 2013-11-16 20:47:46 -0500
+Served asset /jsfx-master/lib/audio.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jsfx-master/lib/jsfx.js?body=1" for 127.0.0.1 at 2013-11-16 20:47:46 -0500
+Served asset /jsfx-master/lib/jsfx.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jsfx-master/lib/jsfxlib.js?body=1" for 127.0.0.1 at 2013-11-16 20:47:46 -0500
+Served asset /jsfx-master/lib/jsfxlib.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jsfx-master/lib/jsfxgui.js?body=1" for 127.0.0.1 at 2013-11-16 20:47:46 -0500
+Served asset /jsfx-master/lib/jsfxgui.js - 304 Not Modified (73ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2013-11-16 20:47:46 -0500
+Served asset /chat.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jsfxgui.js?body=1" for 127.0.0.1 at 2013-11-16 20:47:46 -0500
+Served asset /jsfxgui.js - 304 Not Modified (3ms)
+
+
+Started GET "/faye" for 127.0.0.1 at 2013-11-16 20:47:46 -0500
+
+
+Started GET "/assets/p.js?body=1" for 127.0.0.1 at 2013-11-16 20:47:46 -0500
+Served asset /p.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-16 20:47:46 -0500
+Served asset /application.js - 304 Not Modified (36ms)
+
+
+Started POST "/faye" for 127.0.0.1 at 2013-11-16 20:47:46 -0500
+
+
+Started GET "/assets/faye-browser-min.js.map" for 127.0.0.1 at 2013-11-16 20:47:47 -0500
+Served asset /faye-browser-min.js.map - 404 Not Found (10ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/faye-browser-min.js.map"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.4) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.4) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.4) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  faye-websocket (0.4.6) lib/faye/adapters/thin.rb:41:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  faye-websocket (0.4.6) lib/faye/adapters/thin.rb:45:in `receive_data'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.4) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.4) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /Users/edward/.rvm/gems/ruby-1.9.3-p125@micronemez_railz3/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+Received on /chat: #<FayeRails::Controller::Message:0x007fa0221f0da0 @message={"message"=>"", "created_at"=>"2013-11-17T01:48:00.915Z"}, @channel="/chat">
+Received on /p: #<FayeRails::Controller::Message:0x007fa0233dea58 @message={"message"=>"[\"noise\",0.0000,0.4000,0.0000,0.0060,0.0000,0.1220,20.0000,460.0000,2400.0000,0.0000,0.0000,0.0000,0.0100,0.0003,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.9990,0.0000,0.0000,0.0000,0.0000]", "created_at"=>"2013-11-17T01:48:00.917Z"}, @channel="/p">
+Received on /chat: #<FayeRails::Controller::Message:0x007fa023150700 @message={"message"=>"", "created_at"=>"2013-11-17T01:48:03.108Z"}, @channel="/chat">
+Received on /p: #<FayeRails::Controller::Message:0x007fa02314f850 @message={"message"=>"[\"noise\",0.0000,0.4000,0.0000,0.0060,0.0000,0.1220,20.0000,460.0000,2400.0000,0.0000,0.0000,0.0000,0.0100,0.0003,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.9990,0.0000,0.0000,0.0000,0.0000]", "created_at"=>"2013-11-17T01:48:03.108Z"}, @channel="/p">
+Received on /chat: #<FayeRails::Controller::Message:0x007fa0222fd9f0 @message={"message"=>"", "created_at"=>"2013-11-17T01:48:03.776Z"}, @channel="/chat">
+Received on /p: #<FayeRails::Controller::Message:0x007fa023d4f128 @message={"message"=>"[\"noise\",0.0000,0.4000,0.0000,0.0060,0.0000,0.1220,20.0000,460.0000,2400.0000,0.0000,0.0000,0.0000,0.0100,0.0003,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.9990,0.0000,0.0000,0.0000,0.0000]", "created_at"=>"2013-11-17T01:48:03.776Z"}, @channel="/p">
+Received on /chat: #<FayeRails::Controller::Message:0x007fa023b980a0 @message={"message"=>"", "created_at"=>"2013-11-17T01:48:05.111Z"}, @channel="/chat">
+Received on /chat: #<FayeRails::Controller::Message:0x007fa0222af390 @message={"message"=>"", "created_at"=>"2013-11-17T01:48:06.383Z"}, @channel="/chat">
+Received on /p: #<FayeRails::Controller::Message:0x007fa022c9dd48 @message={"message"=>"[\"noise\",8.0000,0.5000,0.5000,1.0000,1.5000,1.0000,1210.0000,1210.0000,1210.0000,0.0000,0.0000,0.5000,24.0050,0.3500,0.0000,0.0000,0.5000,0.2500,0.0000,0.4000,0.0000,0.0000,0.5000,0.0000,0.5000,0.5000,0.0000]", "created_at"=>"2013-11-17T01:48:06.383Z"}, @channel="/p">
+Received on /chat: #<FayeRails::Controller::Message:0x007fa023d409c0 @message={"message"=>"", "created_at"=>"2013-11-17T01:48:08.683Z"}, @channel="/chat">
+Received on /p: #<FayeRails::Controller::Message:0x007fa022ca6e98 @message={"message"=>"[\"noise\",8.0000,0.5000,0.5000,1.0000,1.5000,1.0000,1210.0000,1210.0000,1210.0000,0.0000,0.0000,0.5000,24.0050,0.3500,0.0000,0.0000,0.5000,0.2500,0.0000,0.4000,0.0000,0.0000,0.5000,0.0000,0.5000,0.5000,0.0000]", "created_at"=>"2013-11-17T01:48:08.684Z"}, @channel="/p">
+Received on /chat: #<FayeRails::Controller::Message:0x007fa023d3aa20 @message={"message"=>"", "created_at"=>"2013-11-17T01:48:12.583Z"}, @channel="/chat">
+Received on /p: #<FayeRails::Controller::Message:0x007fa023d39b20 @message={"message"=>"[\"square\",8.0000,0.5000,0.0000,0.2560,0.0000,0.3280,110.0000,1086.0000,2400.0000,-0.7800,0.0000,0.0000,0.0100,0.0003,0.0000,0.0000,0.0000,0.2710,0.1860,0.0000,0.0000,0.0000,1.0000,0.0000,0.0000,0.0000,0.0000]", "created_at"=>"2013-11-17T01:48:12.583Z"}, @channel="/p">
+Received on /chat: #<FayeRails::Controller::Message:0x007fa0235359d8 @message={"message"=>"", "created_at"=>"2013-11-17T01:48:15.305Z"}, @channel="/chat">
+Received on /p: #<FayeRails::Controller::Message:0x007fa023534998 @message={"message"=>"[\"noise\",8.0000,0.5000,0.0000,0.3980,0.7530,0.4840,20.0000,828.0000,2400.0000,0.0000,0.0000,0.0000,0.0100,0.0003,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,1.0000,0.0000,0.0000,0.0000,0.0000]", "created_at"=>"2013-11-17T01:48:15.305Z"}, @channel="/p">
+Received on /chat: #<FayeRails::Controller::Message:0x007fa022d4b6c8 @message={"message"=>"ff", "created_at"=>"2013-11-17T01:48:20.734Z"}, @channel="/chat">
+Received on /chat: #<FayeRails::Controller::Message:0x007fa022d55178 @message={"message"=>"", "created_at"=>"2013-11-17T01:48:27.002Z"}, @channel="/chat">
+Received on /chat: #<FayeRails::Controller::Message:0x007fa023ab65d8 @message={"message"=>"", "created_at"=>"2013-11-17T01:48:29.457Z"}, @channel="/chat">
+Received on /p: #<FayeRails::Controller::Message:0x007fa02353c300 @message={"message"=>"[\"square\",0.0000,0.4000,0.0000,0.1360,0.0000,0.2020,20.0000,518.0000,2400.0000,0.5500,0.0000,0.0000,0.0100,0.0003,0.0000,0.0000,0.0000,0.1345,0.0000,0.0000,0.0000,0.0000,1.0000,0.0000,0.0000,0.0480,0.0000]", "created_at"=>"2013-11-17T01:48:29.457Z"}, @channel="/p">
+
+
+Started GET "/faye" for 127.0.0.1 at 2013-11-16 20:49:04 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-16 20:49:04 -0500
+Processing by ChatController#index as HTML
+  Rendered chat/index.html.haml within layouts/application (12.5ms)
+Completed 200 OK in 79ms (Views: 78.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-16 20:49:05 -0500
+Served asset /application.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2013-11-16 20:49:05 -0500
+Served asset /chat.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/p.css?body=1" for 127.0.0.1 at 2013-11-16 20:49:05 -0500
+Served asset /p.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-16 20:49:05 -0500
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2013-11-16 20:49:05 -0500
+Served asset /moment.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/faye.js?body=1" for 127.0.0.1 at 2013-11-16 20:49:05 -0500
+Served asset /faye.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/init_faye.js?body=1" for 127.0.0.1 at 2013-11-16 20:49:05 -0500
+Served asset /init_faye.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jsfx-master/lib/audio.js?body=1" for 127.0.0.1 at 2013-11-16 20:49:05 -0500
+Served asset /jsfx-master/lib/audio.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jsfx-master/lib/jsfx.js?body=1" for 127.0.0.1 at 2013-11-16 20:49:05 -0500
+Served asset /jsfx-master/lib/jsfx.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jsfx-master/lib/jsfxlib.js?body=1" for 127.0.0.1 at 2013-11-16 20:49:05 -0500
+Served asset /jsfx-master/lib/jsfxlib.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jsfx-master/lib/jsfxgui.js?body=1" for 127.0.0.1 at 2013-11-16 20:49:05 -0500
+Served asset /jsfx-master/lib/jsfxgui.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2013-11-16 20:49:05 -0500
+Served asset /chat.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jsfxgui.js?body=1" for 127.0.0.1 at 2013-11-16 20:49:05 -0500
+Served asset /jsfxgui.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/p.js?body=1" for 127.0.0.1 at 2013-11-16 20:49:05 -0500
+Served asset /p.js - 304 Not Modified (3ms)
+
+
+Started GET "/faye" for 127.0.0.1 at 2013-11-16 20:49:05 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-16 20:49:05 -0500
+Served asset /application.js - 304 Not Modified (28ms)
+
+
+Started POST "/faye" for 127.0.0.1 at 2013-11-16 20:49:05 -0500
+
+
+Started GET "/assets/faye-browser-min.js.map" for 127.0.0.1 at 2013-11-16 20:49:05 -0500
+Served asset /faye-browser-min.js.map - 404 Not Found (8ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/faye-browser-min.js.map"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.4) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.4) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.4) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  faye-websocket (0.4.6) lib/faye/adapters/thin.rb:41:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  faye-websocket (0.4.6) lib/faye/adapters/thin.rb:45:in `receive_data'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.4) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.4) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /Users/edward/.rvm/gems/ruby-1.9.3-p125@micronemez_railz3/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-16 20:49:29 -0500
+Processing by ChatController#index as HTML
+  Rendered chat/index.html.haml within layouts/application (9.9ms)
+Completed 200 OK in 73ms (Views: 72.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-16 20:49:29 -0500
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2013-11-16 20:49:29 -0500
+Served asset /chat.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/p.css?body=1" for 127.0.0.1 at 2013-11-16 20:49:29 -0500
+Served asset /p.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-16 20:49:29 -0500
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2013-11-16 20:49:29 -0500
+Served asset /moment.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/faye.js?body=1" for 127.0.0.1 at 2013-11-16 20:49:29 -0500
+Served asset /faye.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/init_faye.js?body=1" for 127.0.0.1 at 2013-11-16 20:49:29 -0500
+Served asset /init_faye.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jsfx-master/lib/audio.js?body=1" for 127.0.0.1 at 2013-11-16 20:49:29 -0500
+Served asset /jsfx-master/lib/audio.js - 304 Not Modified (48ms)
+
+
+Started GET "/assets/jsfx-master/lib/jsfx.js?body=1" for 127.0.0.1 at 2013-11-16 20:49:29 -0500
+Served asset /jsfx-master/lib/jsfx.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jsfx-master/lib/jsfxlib.js?body=1" for 127.0.0.1 at 2013-11-16 20:49:29 -0500
+Served asset /jsfx-master/lib/jsfxlib.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jsfx-master/lib/jsfxgui.js?body=1" for 127.0.0.1 at 2013-11-16 20:49:29 -0500
+Served asset /jsfx-master/lib/jsfxgui.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2013-11-16 20:49:29 -0500
+Served asset /chat.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jsfxgui.js?body=1" for 127.0.0.1 at 2013-11-16 20:49:29 -0500
+Served asset /jsfxgui.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/p.js?body=1" for 127.0.0.1 at 2013-11-16 20:49:29 -0500
+Served asset /p.js - 304 Not Modified (3ms)
+
+
+Started GET "/faye" for 127.0.0.1 at 2013-11-16 20:49:29 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-16 20:49:29 -0500
+Served asset /application.js - 304 Not Modified (22ms)
+
+
+Started POST "/faye" for 127.0.0.1 at 2013-11-16 20:49:29 -0500
+
+
+Started GET "/assets/faye-browser-min.js.map" for 127.0.0.1 at 2013-11-16 20:49:30 -0500
+Served asset /faye-browser-min.js.map - 404 Not Found (6ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/faye-browser-min.js.map"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.4) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.4) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.4) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  faye-websocket (0.4.6) lib/faye/adapters/thin.rb:41:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  faye-websocket (0.4.6) lib/faye/adapters/thin.rb:45:in `receive_data'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.4) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.4) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /Users/edward/.rvm/gems/ruby-1.9.3-p125@micronemez_railz3/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-16 20:50:15 -0500
+Processing by ChatController#index as HTML
+  Rendered chat/index.html.haml within layouts/application (16.5ms)
+Completed 200 OK in 115ms (Views: 114.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-16 20:50:15 -0500
+Served asset /application.css - 304 Not Modified (20ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2013-11-16 20:50:15 -0500
+Served asset /chat.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/p.css?body=1" for 127.0.0.1 at 2013-11-16 20:50:15 -0500
+Served asset /p.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-16 20:50:15 -0500
+Served asset /jquery.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2013-11-16 20:50:15 -0500
+Served asset /moment.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/faye.js?body=1" for 127.0.0.1 at 2013-11-16 20:50:15 -0500
+Served asset /faye.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/init_faye.js?body=1" for 127.0.0.1 at 2013-11-16 20:50:15 -0500
+Served asset /init_faye.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jsfx-master/lib/audio.js?body=1" for 127.0.0.1 at 2013-11-16 20:50:15 -0500
+Served asset /jsfx-master/lib/audio.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jsfx-master/lib/jsfx.js?body=1" for 127.0.0.1 at 2013-11-16 20:50:15 -0500
+Served asset /jsfx-master/lib/jsfx.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jsfx-master/lib/jsfxlib.js?body=1" for 127.0.0.1 at 2013-11-16 20:50:15 -0500
+Served asset /jsfx-master/lib/jsfxlib.js - 304 Not Modified (62ms)
+
+
+Started GET "/assets/jsfx-master/lib/jsfxgui.js?body=1" for 127.0.0.1 at 2013-11-16 20:50:15 -0500
+Served asset /jsfx-master/lib/jsfxgui.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2013-11-16 20:50:15 -0500
+Served asset /chat.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jsfxgui.js?body=1" for 127.0.0.1 at 2013-11-16 20:50:15 -0500
+Served asset /jsfxgui.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/p.js?body=1" for 127.0.0.1 at 2013-11-16 20:50:15 -0500
+Served asset /p.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-16 20:50:15 -0500
+Served asset /application.js - 304 Not Modified (38ms)
+
+
+Started GET "/faye" for 127.0.0.1 at 2013-11-16 20:50:15 -0500
+
+
+Started POST "/faye" for 127.0.0.1 at 2013-11-16 20:50:16 -0500
+
+
+Started GET "/assets/faye-browser-min.js.map" for 127.0.0.1 at 2013-11-16 20:50:16 -0500
+Served asset /faye-browser-min.js.map - 404 Not Found (13ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/faye-browser-min.js.map"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.4) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.4) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.4) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  faye-websocket (0.4.6) lib/faye/adapters/thin.rb:41:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  faye-websocket (0.4.6) lib/faye/adapters/thin.rb:45:in `receive_data'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.4) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.4) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /Users/edward/.rvm/gems/ruby-1.9.3-p125@micronemez_railz3/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+Received on /chat: #<FayeRails::Controller::Message:0x007f9dec31f088 @message={"message"=>"", "created_at"=>"2013-11-17T01:50:18.666Z"}, @channel="/chat">
+Received on /p: #<FayeRails::Controller::Message:0x007f9ded1e7ae8 @message={"message"=>"[\"noise\",0.0000,0.4000,0.0000,0.0060,0.0000,0.1220,20.0000,460.0000,2400.0000,0.0000,0.0000,0.0000,0.0100,0.0003,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.9990,0.0000,0.0000,0.0000,0.0000]", "created_at"=>"2013-11-17T01:50:18.669Z"}, @channel="/p">
+Received on /chat: #<FayeRails::Controller::Message:0x007f9def8fcea8 @message={"message"=>"", "created_at"=>"2013-11-17T01:50:21.672Z"}, @channel="/chat">
+Received on /p: #<FayeRails::Controller::Message:0x007f9def8fbff8 @message={"message"=>"[\"square\",0.0000,0.4000,0.0000,0.1580,0.0000,0.2760,20.0000,408.0000,2400.0000,0.3860,0.0000,0.0000,0.0100,0.0003,0.0000,0.0000,0.0000,0.2465,0.0000,0.0000,0.0000,0.0000,0.6420,0.0000,0.0000,0.0000,0.0000]", "created_at"=>"2013-11-17T01:50:21.673Z"}, @channel="/p">
+Received on /chat: #<FayeRails::Controller::Message:0x007f9dec434ae0 @message={"message"=>"", "created_at"=>"2013-11-17T01:50:23.777Z"}, @channel="/chat">
+Received on /p: #<FayeRails::Controller::Message:0x007f9dec1b75d8 @message={"message"=>"[\"sine\",0.0000,0.4000,0.0000,0.1740,0.2700,0.0380,149.0000,970.0000,2400.0000,-0.9700,0.0000,0.0000,0.0100,0.0003,0.0000,0.0000,0.0000,0.3245,0.0640,0.0000,0.0000,0.0000,1.0000,0.0000,0.0000,0.0030,0.0000]", "created_at"=>"2013-11-17T01:50:23.777Z"}, @channel="/p">
+Received on /chat: #<FayeRails::Controller::Message:0x007f9def906228 @message={"message"=>"", "created_at"=>"2013-11-17T01:50:24.892Z"}, @channel="/chat">
+Received on /chat: #<FayeRails::Controller::Message:0x007f9dedc8f9c8 @message={"message"=>"", "created_at"=>"2013-11-17T01:50:27.783Z"}, @channel="/chat">
+Received on /p: #<FayeRails::Controller::Message:0x007f9dec4e53e0 @message={"message"=>"[\"noise\",0.0000,0.4000,0.0000,0.2060,0.3750,0.0680,20.0000,949.0000,2400.0000,-0.2140,0.0000,0.0000,0.0100,0.0003,0.0000,-0.1940,0.7620,0.0000,0.0000,0.0000,0.0380,-0.1280,1.0000,0.0000,0.0000,0.0000,0.0000]", "created_at"=>"2013-11-17T01:50:27.785Z"}, @channel="/p">
+Received on /chat: #<FayeRails::Controller::Message:0x007f9ded348ef0 @message={"message"=>"", "created_at"=>"2013-11-17T01:50:58.499Z"}, @channel="/chat">
+Received on /p: #<FayeRails::Controller::Message:0x007f9ded6c15c8 @message={"message"=>"[\"saw\",0.0000,0.4000,0.0000,0.3720,0.0000,0.4400,20.0000,595.0000,2400.0000,0.5400,0.0000,0.0000,0.0100,0.0003,0.0000,0.0000,0.0000,0.0000,0.0000,0.5136,0.0000,0.0000,1.0000,0.0000,0.0000,0.0000,0.0000]", "created_at"=>"2013-11-17T01:50:58.501Z"}, @channel="/p">
+Received on /chat: #<FayeRails::Controller::Message:0x007f9dec457018 @message={"message"=>"", "created_at"=>"2013-11-17T01:51:40.424Z"}, @channel="/chat">
+Received on /p: #<FayeRails::Controller::Message:0x007f9def986b58 @message={"message"=>"[\"square\",0.0000,0.4000,0.0000,0.0040,0.4050,0.2100,20.0000,837.0000,2400.0000,0.0000,0.0000,0.0000,0.0100,0.0003,0.0000,0.5920,0.2020,0.0000,0.0000,0.0000,0.0000,0.0000,1.0000,0.0000,0.0000,0.0000,0.0000]", "created_at"=>"2013-11-17T01:51:40.426Z"}, @channel="/p">

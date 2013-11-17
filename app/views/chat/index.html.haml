@@ -11,28 +11,16 @@
   %div#main
     %div#button-panel        
       %div#sample-generators.button-set
-  
-      %hr 
-      %div.button-set
         %button#reset{ onclick: "jsfxgui.reset()"} reset
-        %button#rand{ onclick: "jsfxgui.randomize()"} rand
-        %button#play{ onclick: "jsfxgui.play()"} play
-        %button#to_lib{ onclick: "jsfxgui.paramsToLibrary()"} to_lib
-      
-    
+
     %div#stuff 
       %input#libload{type: "text", value:'["noise",0.0000,0.4000,0.0000,0.0060,0.0000,0.1220,20.0000,460.0000,2400.0000,-0.  5240,0.0000,0.0000,0.0100,0.0003,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.9990,0.0000,0.0000,0.0000,0.  0000]'}
-      %button#loadField{onclick:"jsfxgui.paramsFromFieldAndPlay()"} load
-      %a#link{href:"#"} link
-      %br
+      %button#loadField{onclick:"jsfxgui.paramsFromFieldAndPlay()"} post
+      %a#link{href:"#", style:"display:none"} link
       %input#playonchange{type:"checkbox", checked: :checked} trigger on change
       %br
 
       %div#config-panel
-      
-    %h3 library
-    %div#library
-  
     
     %h3 log
     %div#log
