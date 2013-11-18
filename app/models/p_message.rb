@@ -1,5 +1,5 @@
 class PMessage
-  HISTORY = 100
+  HISTORY = 1
 
   attr_accessor :message, :created_at
 

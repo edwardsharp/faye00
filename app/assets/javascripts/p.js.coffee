@@ -25,6 +25,8 @@ $(document).ready ->
     publication.callback ->
       loadField.removeAttr('disabled')
       loadField.text('post')
+      console.log "got"+publication.message
+      libload.attr('value', publication.message)
       jsfxgui.play()
     publication.errback ->
       loadField.removeAttr('disabled')
