@@ -28,6 +28,7 @@ $(document).ready(function() {
   function onplay(){
     this.paramsToField();
     link.href = "/?load=" + window.encodeURI(field.value);
+    console.log('GOTPLAY');
   }
   
   var onchange = document.getElementById("playonchange");

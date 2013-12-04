@@ -13,20 +13,20 @@ client.subscribe '/chat', (payload)->
 
 $(document).ready ->
   input = $('input')
-  button = $('button')
-  button.click ->
-    button.attr('disabled', 'disabled')
-    button.text('posting...')
+  sendChat = $('#sendChat')
+  sendChat.click ->
+    sendChat.attr('disabled', 'disabled')
+    sendChat.text('posting...')
     publication = client.publish '/chat',
       message: input.attr('value')
       created_at: new Date()
     publication.callback ->
-      input.attr('value', '')
-      button.removeAttr('disabled')
-      button.text('post')
+   
+      sendChat.removeAttr('disabled')
+      sendChat.text('post')
     publication.errback ->
-      button.removeAttr('disabled')
-      button.text('try again?')
+      sendChat.removeAttr('disabled')
+      sendChat.text('try again?')
   
   
   $('.time').hide()
