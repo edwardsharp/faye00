@@ -2,3 +2,5 @@
 tmp/cache/*
 
 /tmp/pids/server.pid
+
+log/development.log
